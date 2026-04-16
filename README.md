@@ -39,3 +39,13 @@ engine = create_engine('postgresql://postgres:unifecaf123@localhost:5435/postgre
 df = pd.read_csv('data/IOT-temp.csv')
 df.to_sql('leituras_iot', engine, if_exists='replace', index=False)
 print("Dados enviados com sucesso!")
+## 🛠️ Comandos Git Utilizados
+Para organizar este repositório, utilizei:
+- `git init` (inicialização)
+- `git add .` (preparação dos arquivos)
+- `git commit -m "mensagem"` (salvamento local)
+- `git remote add origin [url]` (conexão com GitHub)
+- `git push -u origin main` (envio para nuvem)
+
+## 📸 Capturas de Tela
+> **Nota:** As capturas do Dashboard e do Docker Desktop funcionando estão anexadas na documentação em PDF e também podem ser visualizadas na pasta `/docs` deste repositório.
